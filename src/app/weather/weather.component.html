@@ -1,0 +1,29 @@
+<!-- ngForm directive  -->
+<!-- ngModel is used for two-way data binding, linking the input field to the cityName property.
+The name attribute is used to identify the form control. -->
+<div class="search">
+    <form #form="ngForm" (submit)="onSubmit()">
+        <input type="text" placeholder="Search city" name="city"
+        [(ngModel)]="cityName" />
+    </form>
+</div>
+<!-- Interpolation syntax it is used to bind the values of the variables 
+    from the component class to the HTML template. -->
+<div class="container">
+    <div class="upper-section">
+        <h1>{{cityName}}</h1>
+        <img src="{{icon}}" alt="weather image" />
+        <h2 class="temp">{{temperature}} &#8451;</h2>
+    </div>
+    
+    <div class="lower-section">
+        <p class="text">Country: {{country}} </p>
+        <p class="text">Summary: {{description}} </p>
+        <p class="text">Feels like: {{feels_like}} &#8451;</p>
+        <p class="text">Pressure: {{pressure}} </p>
+        <p class="text">Humidity: {{humidity}} %</p>
+        <p class="text">Wind Speed: {{wind}} </p>  
+        <p class="text">Temp Max: {{temp_max}} &#8451;</p>  
+        <p class="text">Temp Min: {{temp_min}} &#8451;</p>  
+    </div>
+</div>
