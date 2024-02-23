@@ -1,5 +1,7 @@
 # WeatherApp
 
+![weather_image](https://github.com/PanosKatsaras/Angular-Weather-App/assets/93729093/88d5887f-dc47-4af6-9959-6bd138928eb3)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
