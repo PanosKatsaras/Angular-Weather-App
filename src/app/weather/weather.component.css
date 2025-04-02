@@ -1,7 +1,7 @@
 /* styles of the weather component */
 .container {
     width: 500px;
-    height: 70vh;
+    height: 75vh;
     background-color:#F4BB83;
     border-radius: 20px;
     margin-top: 60px;
@@ -25,7 +25,7 @@
 }
 
 .lower-section {
-    padding: 12px;
+    padding: 2px;
     margin-top: 30px;
     flex-direction: column;
     font-size: large;
@@ -38,7 +38,7 @@
 }
 
 .search {
-    margin-top: 4em;
+    margin-top: 2em;
     margin-bottom: 1em;
     text-align: center;
 }

@@ -1,0 +1,25 @@
+# Ignore node_modules (dependencies will be installed in the container)
+node_modules
+
+# Ignore build output
+dist
+
+# Ignore environment files
+src/environments/environment*.ts
+
+# Ignore local configuration files
+*.log
+*.env
+*.local
+
+# Ignore IDE and editor files
+.vscode
+.idea
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files (optional, if not needed in the image)
+.dockerignore
+docker-compose.override.yml
